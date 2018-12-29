@@ -1,0 +1,9 @@
+/* standalone */
+the_ROM_image:
+{
+  [fsbl_config] a53_x64
+  [bootloader]<r5_standalone/boot/fsbl.elf>
+  [pmufw_image]<r5_standalone/boot/pmufw.elf>
+  [destination_device=pl] <bitstream>
+  [destination_cpu=r5-0] <elf>
+}

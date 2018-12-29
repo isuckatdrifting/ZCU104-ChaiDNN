@@ -1,0 +1,12 @@
+-M
+microblaze-fdt
+-kernel
+<ocl/qemu/pmu_rom_qemu_sha3.elf>
+-device
+loader,file=<ocl/qemu/pmufw.elf>
+-hw-dtb
+<ocl/qemu/zynqmp-pmu.dtb>
+-machine-path
+.
+-display
+none

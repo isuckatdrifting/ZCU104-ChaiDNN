@@ -1,0 +1,18 @@
+## General
+
+# Compiled Object files
+*.o
+/build
+/SD_Card/models
+/SD_Card/*.elf
+/SD_Card/BOOT.BIN
+/SD_Card/image.ub
+/design/build/_sds
+/design/build/*.o
+/design/build/*.so
+/design/build/*.bit
+/design/build/sd_card
+/design/build/.Xil
+/software/scripts/*.o
+/software/scripts/*.elf
+/software/scripts/*.so

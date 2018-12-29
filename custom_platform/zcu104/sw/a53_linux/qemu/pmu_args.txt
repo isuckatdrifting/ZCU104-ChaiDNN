@@ -1,0 +1,12 @@
+-M
+microblaze-fdt
+-kernel
+<a53_linux/qemu/pmu_rom_qemu_sha3.elf>
+-device
+loader,file=<a53_linux/qemu/pmufw.elf>
+-hw-dtb
+<a53_linux/qemu/zynqmp-pmu.dtb>
+-machine-path
+.
+-display
+none

@@ -1,0 +1,11 @@
+/* linux */
+the_ROM_image:
+{
+  [fsbl_config] a53_x64
+  [bootloader] <ocl/boot/fsbl.elf>
+  [pmufw_image] <ocl/boot/pmufw.elf>
+  [destination_device=pl] <bitstream>
+  [destination_cpu=a53-0, exception_level=el-3, trustzone] <ocl/boot/bl31.elf>
+  [destination_cpu=a53-0, exception_level=el-2] <ocl/boot/u-boot.elf>
+}
+
