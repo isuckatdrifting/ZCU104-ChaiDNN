@@ -1,3 +1,9 @@
+This is a repo for CHaiDNN implementation on ZCU104, which is a platform listed as 'custom' platforms in the original release by Xilinx, inc. 
+
+To build the project, you should change the hardware platform directory (included in this repo `/custom_platform/zcu104`) in the file `design/build/Makefile`, *line 40* `PLATFORM    := ~/CHaiDNN/custom_platform/zcu104` to the corresponding directory on your PC.
+
+Below is the original readme file of CHaiDNN by Xilinx.
+
 <table style="width:100%">
 <tr>
 <th width="100%" colspan="6"><img src="https://www.xilinx.com/content/dam/xilinx/imgs/press/media-kits/corporate/xilinx-logo.png" width="30%"/><h1>CHaiDNN-v2</h2>
